@@ -1,0 +1,1653 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  width: 1440px;
+  display: block;
+  margin: 0 auto;
+  background-color: #000000;
+  color: #d9d9d9;
+  font-family: "Stratos";
+  font-weight: 500;
+  opacity: 1;
+}
+a {
+  color: inherit;
+}
+/* body::after {
+  content: "";
+  background-image: url("../images/frame.png");
+  width: 1440px;
+  height: 10345px;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 720px);
+  opacity: 0.1;
+} */
+
+.NormalBlack {
+  font-family: "StratosBlack";
+  font-size: 32px;
+  font-weight: 900;
+  font-style: normal;
+}
+.NormalBold {
+  font-family: "StratosBold";
+  font-size: 32px;
+  font-weight: bold;
+  font-style: normal;
+}
+.NormalExtraBold {
+  font-family: "StratosExtraBold";
+  font-size: 32px;
+  font-weight: 800;
+  font-style: normal;
+}
+.NormalSemiBoldl {
+  font-family: "StratosSemiBold";
+  font-size: 32px;
+  font-weight: 700;
+  font-style: normal;
+}
+.NormalMedium {
+  font-family: "StratosMeduim";
+  font-size: 32px;
+  font-weight: 500;
+  font-style: normal;
+}
+.NormalRegular {
+  font-family: "StratosRegular";
+  font-size: 32px;
+  font-weight: normal;
+  font-style: normal;
+}
+.NormalSemiLight {
+  font-family: "StratosSemiLight";
+  font-size: 32px;
+  font-weight: 300;
+  font-style: normal;
+}
+.NormalLight {
+  font-family: "StratosLight";
+  font-size: 32px;
+  font-weight: 300;
+  font-style: normal;
+}
+/* .StratosExtraLight {
+  font-size: 32px;
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+} */
+.NormalThin {
+  font-family: "StratosThin";
+  font-size: 32px;
+  font-weight: 100;
+  font-style: normal;
+}
+.twenty {
+  font-family: "StratosRegular";
+  font-size: 248px;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: -4px;
+}
+.meduimTitle {
+  font-family: "StratosMeduim";
+  font-size: 62px;
+  font-weight: 500;
+  font-style: normal;
+}
+.regularBigTitle {
+  font-family: "StratosRegular";
+  font-size: 62px;
+  font-weight: normal;
+  font-style: normal;
+}
+.italicBigTitle {
+  font-family: "StratosRegular";
+  font-size: 62px;
+  font-weight: normal;
+  font-style: italic;
+}
+.regularTitle {
+  font-family: "StratosRegular";
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+}
+.regularText {
+  font-family: "StratosRegular";
+  font-size: 27px;
+  font-weight: normal;
+  font-style: normal;
+}
+.littleTitle {
+  font-family: "StratosRegular";
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  opacity: 0.5;
+}
+.littleText {
+  font-family: "StratosRegular";
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  opacity: 0.5;
+}
+.littleText2 {
+  font-family: "StratosRegular";
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  opacity: 0.5;
+}
+
+.littleText3 {
+  font-family: "StratosRegular";
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  opacity: 0.5;
+}
+
+.number {
+  font-family: "StratosRegular";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 498px;
+}
+
+/* начертания для цифр */
+.SThin {
+  font-family: "StratosThin";
+  font-size: 30px;
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+.SELight {
+  font-family: "StratosExtraLight";
+  font-size: 30px;
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+.SLight {
+  font-family: "StratosLight";
+  font-size: 30px;
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+.SSLight {
+  font-family: "StratosSemiLight";
+  font-size: 32px;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+.SRegular {
+  font-family: "StratosRegular";
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.SMedium {
+  font-family: "StratosMeduim";
+  font-size: 30px;
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+.SSBold {
+  font-family: "StratosSemiBold";
+  font-size: 32px;
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+.SBold {
+  font-family: "StratosBold";
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+.SEBold {
+  font-family: "StratosExtraBold";
+  font-size: 30px;
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+.SBlack {
+  font-family: "StratosBlack";
+  font-size: 30px;
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+.SThin,
+.SELight,
+.SLight,
+.SSLight,
+.SRegular,
+.SMedium,
+.SSBold,
+.SBold,
+.SEBold,
+.SBlack {
+  margin-bottom: 0.5px;
+}
+
+.SThinItalic {
+  font-family: "StratosThin";
+  font-size: 30px;
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+.SELightItalic {
+  font-family: "StratosExtraLight";
+  font-size: 30px;
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+.SLightItalic {
+  font-family: "StratosLight";
+  font-size: 30px;
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+.SSLightItalic {
+  font-family: "StratosSemiLight";
+  font-size: 32px;
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+.SRegularItalic {
+  font-family: "StratosRegular";
+  font-size: 30px;
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+.SMediumItalic {
+  font-family: "StratosMeduim";
+  font-size: 30px;
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+.SSBoldItalic {
+  font-family: "StratosSemiBold";
+  font-size: 32px;
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+.SBoldItalic {
+  font-family: "StratosBold";
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+.SEBoldItalic {
+  font-family: "StratosExtraBold";
+  font-size: 30px;
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+.SBlackItalic {
+  font-family: "StratosBlack";
+  font-size: 30px;
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+.SThinItalic,
+.SELightItalic,
+.SLightItalic,
+.SSLightItalic,
+.SRegularItalic,
+.SMediumItalic,
+.SSBoldItalic,
+.SBoldItalic,
+.SEBoldItalic,
+.SBlackItalic {
+  margin-bottom: 0.5px;
+}
+
+.ABC {
+  font-family: "StratosRegular";
+  font-size: 138px;
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* секция 1 */
+#section-1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 47px 146px;
+  padding-bottom: 28px;
+  font-size: 23px;
+}
+#section-1 p {
+  font-family: "StratosRegular";
+  font-weight: normal;
+  font-style: normal;
+}
+#section-1 a {
+  text-decoration: none;
+}
+
+#section-1 h1 {
+  font-family: "StratosRegular";
+  font-weight: normal;
+  font-style: normal;
+}
+.navigation {
+  opacity: 0.5;
+  transition: all ease 0.3s;
+}
+.navigation:hover {
+  opacity: 1;
+  color: #ffffff;
+  transition: all ease 0.6s;
+}
+
+/* секция 2 */
+#section-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#section-2 img {
+  margin-left: 144px;
+}
+#section-2 h1 {
+  font-size: 343px;
+  font-style: normal;
+  font-weight: normal;
+  margin: -20px 0px;
+  margin-left: 131px;
+  margin-top: -2px;
+}
+#section-2 img {
+  margin-left: 144px;
+  display: block;
+}
+#section-2 h2 {
+  left: calc(50% - 720px);
+  margin-top: 53px;
+  margin-left: 910px;
+  opacity: 1;
+}
+#section-2 a {
+  text-decoration: none;
+}
+
+/* секция 3 */
+#section-3 h2 {
+  margin-top: 114px;
+  margin-left: 144px;
+  opacity: 1;
+}
+#section-3 img {
+  margin-top: 42px;
+}
+
+#section-3-2 {
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 144px;
+  line-height: 47px;
+  opacity: 1;
+}
+#section-3-3 {
+  justify-content: space-between;
+  margin-top: -144px;
+  margin-left: 490px;
+  line-height: 47px;
+  opacity: 1;
+}
+
+/* секция 4 */
+#section-4 {
+  margin-top: 264px;
+  margin-left: 144px;
+  line-height: 47px;
+  opacity: 1;
+}
+#section-4 img {
+  margin-top: 9px;
+  display: block;
+}
+#section-4-2 img {
+  margin: -53px 1110px;
+  display: block;
+}
+
+/* секция 5 */
+
+#section-5 h2 {
+  left: calc(50% - 720px);
+  margin-top: 174px;
+  margin-left: 144px;
+  opacity: 1;
+}
+#section-5 h4 {
+  left: calc(50% - 720px);
+  margin-top: 25px;
+  margin-left: 144px;
+  opacity: 0.5;
+}
+#section-5 img {
+  margin-top: 10px;
+  margin-left: 144px;
+  display: block;
+}
+#section-5 p {
+  margin-top: -1px;
+  margin-left: 144px;
+  margin-right: 840px;
+  margin-bottom: -38px;
+  display: block;
+  padding: 45px 5px 28px 3px;
+  line-height: 34px;
+}
+
+/* секция 6 */
+#section-6 h2 {
+  left: calc(50% - 720px);
+  margin-top: -529px;
+  margin-left: 815px;
+  opacity: 1;
+}
+#section-6 h4 {
+  left: calc(50% - 720px);
+  margin-top: 25px;
+  margin-left: 815px;
+  opacity: 0.5;
+}
+#section-6 img {
+  margin-top: 10px;
+  margin-left: 815px;
+  display: block;
+}
+#section-6 p {
+  justify-content: space-between;
+  margin-top: 21px;
+  margin-left: 815px;
+  margin-right: 840px;
+  margin-bottom: 47px;
+  line-height: 82px;
+  opacity: 1;
+}
+#section-6_2 {
+  justify-content: space-between;
+  margin: -56px 284px -8px 815px;
+  line-height: 22px;
+  opacity: 0.5;
+}
+#section-6_3 p {
+  margin-top: 21px;
+  margin-left: 815px;
+  margin-right: 840px;
+  margin-bottom: 47px;
+  line-height: 82px;
+  opacity: 1;
+}
+#section-6_4 {
+  justify-content: space-between;
+  margin: -56px 284px -8px 815px;
+  line-height: 22px;
+  opacity: 0.5;
+}
+#section-6_5 p {
+  margin-top: 21px;
+  margin-left: 815px;
+  margin-bottom: 47px;
+  line-height: 82px;
+  opacity: 1;
+}
+#section-6_6 {
+  justify-content: space-between;
+  margin: -56px 313px -8px 815px;
+  line-height: 22px;
+  opacity: 0.5;
+}
+#section-6_7 p {
+  margin: 45px 303px 5px 815px;
+  line-height: 33px;
+  opacity: 1;
+}
+#section-6_8 {
+  justify-content: space-between;
+  margin: 16px 313px -8px 815px;
+  line-height: 22px;
+  opacity: 0.5;
+}
+
+/* секция 7 */
+#section-7 {
+  margin: 171px 145px 3px 446px;
+}
+
+#section-7_2 {
+  margin: -38px 136px 37px 1265px;
+}
+
+#section-7_3 {
+  margin: -30px 135px 10px 395px;
+}
+
+/* секция 8 */
+#section-8 {
+  margin: -816px 219px -11px 513px;
+  font-weight: normal;
+  font-style: normal;
+}
+#section-8_2 {
+  margin: -62px 100px 0 942px;
+}
+#section-8_3 {
+  margin: 531px 96px -31px 128px;
+}
+#section-8_4 {
+  margin-top: -689px;
+  margin-left: 514px;
+  margin-bottom: 38px;
+  font-family: "StratosThin";
+  font-size: 32px;
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+#section-8_5 {
+  margin-left: 514px;
+  margin-bottom: 38px;
+  font-family: "StratosExtraLight";
+  font-size: 32px;
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+#section-8_6 {
+  margin-left: 514px;
+  margin-bottom: 38px;
+  font-family: "StratosLight";
+  font-size: 32px;
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+#section-8_7 {
+  margin-left: 514px;
+  margin-bottom: 38px;
+  font-family: "StratosSemiLight";
+  font-size: 32px;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+#section-8_8 {
+  margin-left: 514px;
+  margin-bottom: 38px;
+  font-family: "StratosRegular";
+  font-size: 32px;
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+#section-8_9 {
+  margin-left: 514px;
+  margin-bottom: 38px;
+  font-family: "StratosMeduim";
+  font-size: 32px;
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+#section-8_10 {
+  margin-left: 514px;
+  margin-bottom: 38px;
+  font-family: "StratosSemiBold";
+  font-size: 32px;
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+#section-8_11 {
+  margin-left: 514px;
+  margin-bottom: 38px;
+  font-family: "StratosBold";
+  font-size: 32px;
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+#section-8_12 {
+  margin-left: 514px;
+  margin-bottom: 38px;
+  font-family: "StratosExtraBold";
+  font-size: 32px;
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+#section-8_13 {
+  margin-left: 514px;
+  margin-bottom: 38px;
+  font-family: "StratosBlack";
+  font-size: 32px;
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 9 секция */
+#section-9_1 {
+  margin-top: -700px;
+  margin-left: 946px;
+  margin-bottom: 38px;
+  font-family: "StratosThin";
+  font-size: 32px;
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+#section-9_2 {
+  margin-left: 514px;
+  margin-left: 946px;
+  margin-bottom: 38px;
+  font-family: "StratosExtraLight";
+  font-size: 32px;
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+#section-9_3 {
+  margin-left: 514px;
+  margin-left: 946px;
+  margin-bottom: 38px;
+  font-family: "StratosLight";
+  font-size: 32px;
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+#section-9_4 {
+  margin-left: 514px;
+  margin-left: 946px;
+  margin-bottom: 38px;
+  font-family: "StratosSemiLight";
+  font-size: 32px;
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+#section-9_5 {
+  margin-left: 514px;
+  margin-left: 946px;
+  margin-bottom: 38px;
+  font-family: "StratosRegular";
+  font-size: 32px;
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+#section-9_6 {
+  margin-left: 514px;
+  margin-left: 946px;
+  margin-bottom: 38px;
+  font-family: "StratosMeduim";
+  font-size: 32px;
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+#section-9_7 {
+  margin-left: 514px;
+  margin-left: 946px;
+  margin-bottom: 38px;
+  font-family: "StratosSemiBold";
+  font-size: 32px;
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+#section-9_8 {
+  margin-left: 514px;
+  margin-left: 946px;
+  margin-bottom: 38px;
+  font-family: "StratosBold";
+  font-size: 32px;
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+#section-9_9 {
+  margin-left: 514px;
+  margin-left: 946px;
+  margin-bottom: 38px;
+  font-family: "StratosExtraBold";
+  font-size: 32px;
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+#section-9_10 {
+  margin-left: 514px;
+  margin-left: 946px;
+  margin-bottom: 38px;
+  font-family: "StratosBlack";
+  font-size: 32px;
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* 10 секция */
+.section-10_10,
+.section-10_11,
+.section-10_12 {
+  font-family: "StratosRegular";
+  font-weight: normal;
+  font-style: normal;
+}
+#section-10 {
+  left: calc(50% - 720px);
+  margin-top: 155px;
+  margin-left: 144px;
+  opacity: 1;
+}
+#section-10_1 {
+  margin: 171px 145px 3px 144px;
+}
+#section-10_2 img {
+  margin-left: 144px;
+  margin-top: 17px;
+  display: block;
+}
+#section-10_3 {
+  margin: -53px 136px 37px 1251px;
+}
+
+#section-10_4 {
+  margin: 109px 136px 37px 121px;
+}
+
+#section-10_5 {
+  font-family: "StratosRegular";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  margin: -753px 136px 37px 162px;
+}
+
+#section-10_6 {
+  font-family: "StratosBold";
+  font-weight: bold;
+  font-style: italic;
+  color: #000000;
+  font-size: 14px;
+  margin: -50px 136px 37px 391px;
+}
+
+#section-10_7 {
+  font-family: "StratosBlack";
+  font-weight: 900;
+  font-style: normal;
+  font-size: 14px;
+  margin: -51px 136px 37px 622px;
+}
+
+#section-10_8 {
+  font-family: "StratosItalic";
+  font-weight: normal;
+  font-style: italic;
+  color: #000000;
+  font-size: 14px;
+  margin: -51px 136px 37px 851px;
+}
+
+#section-10_9 {
+  font-family: "StratosLight";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+  margin: -51px 136px 37px 1082px;
+}
+
+#section-10_10 {
+  font-family: "StratosRegular";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 165px;
+  margin: -28px 136px 37px 199px;
+}
+
+#section-10_11 {
+  font-family: "StratosRegular";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 165px;
+  margin: 62px 136px 37px 194px;
+}
+
+#section-10_12 {
+  font-family: "StratosRegular";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 165px;
+  margin: 44px 136px 37px 214px;
+}
+
+#section-10_13 {
+  font-family: "StratosBold";
+  font-weight: bold;
+  font-style: italic;
+  color: #000000;
+  font-size: 165px;
+  margin: -639px 0 0 430px;
+}
+
+#section-10_14 {
+  font-family: "StratosBold";
+  font-weight: bold;
+  font-style: italic;
+  color: #000000;
+  font-size: 165px;
+  margin: 71px 0 0 439px;
+}
+
+#section-10_15 {
+  font-family: "StratosBold";
+  font-weight: bold;
+  font-style: italic;
+  color: #000000;
+  font-size: 165px;
+  margin: 37px 0 0 439px;
+}
+
+#section-10_16 {
+  font-family: "StratosBlack";
+  font-weight: 900;
+  font-style: normal;
+  font-size: 165px;
+  margin: -595px 0px 0px 664px;
+}
+
+#section-10_17 {
+  font-family: "StratosBlack";
+  font-weight: 900;
+  font-style: normal;
+  font-size: 165px;
+  margin: 29px 0px 0px 672px;
+}
+
+#section-10_18 {
+  font-family: "StratosBlack";
+  font-weight: 900;
+  font-style: normal;
+  font-size: 165px;
+  margin: 70px 0px 0px 672px;
+}
+
+#section-10_19 {
+  font-family: "StratosItalic";
+  font-weight: normal;
+  font-style: italic;
+  color: #000000;
+  font-size: 125px;
+  margin: -583px 136px 37px 890px;
+}
+
+#section-10_20 {
+  font-family: "StratosItalic";
+  font-weight: normal;
+  font-style: italic;
+  color: #000000;
+  font-size: 165px;
+  margin: 84px 0 0 890px;
+}
+
+#section-10_21 {
+  font-family: "StratosItalic";
+  font-weight: normal;
+  font-style: italic;
+  color: #000000;
+  font-size: 165px;
+  margin: 45px 0 0 890px;
+}
+
+#section-10_22 {
+  font-family: "StratosLight";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 165px;
+  margin: -615px 0 0 1137px;
+}
+
+#section-10_23 {
+  font-family: "StratosLight";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 130px;
+  margin: 84px 0 0 1140px;
+}
+
+#section-10_24 {
+  font-family: "StratosLight";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 160px;
+  margin: 68px 0 0 1133px;
+}
+
+/* 10 секция */
+#section-11 {
+  left: calc(50% - 720px);
+  margin-top: 217px;
+  margin-left: 144px;
+  opacity: 1;
+}
+#section-11_1 {
+  margin: 171px 145px 3px 144px;
+}
+
+#section-11_2 img {
+  margin-left: 144px;
+  margin-top: 17px;
+  display: block;
+}
+
+#section-11_3 {
+  margin: -53px 136px 37px 1251px;
+}
+
+#section-11_4 img {
+  margin: 75px 0 0 306px;
+}
+
+/* Цифра 1  */
+#section-11_5 {
+  margin: -1365px 0 0 90px;
+}
+
+#section-11_6_1 {
+  margin: -436px 0 0 332px;
+}
+#section-11_6_2 {
+  margin: -309px 0 0 390px;
+}
+
+/* Цифра 2  */
+#section-11_7 {
+  margin: -371px 0 0 466px;
+}
+#section-11_7_1 {
+  margin: -436px 0 0 769px;
+}
+
+#section-11_7_2 {
+  margin: -309px 0 0 827px;
+}
+
+/* Цифра 3  */
+#section-11_8 {
+  margin: -371px 0 0 900px;
+}
+
+#section-11_8_1 {
+  margin: -436px 0 0 1212px;
+}
+
+#section-11_8_2 {
+  margin: -309px 0 0 1270px;
+}
+
+/* Цифра 4  */
+#section-11_9 {
+  margin: 95px 0 0 121px;
+}
+
+#section-11_9_1 {
+  margin: -436px 0 0 435px;
+}
+#section-11_9_2 {
+  margin: -309px 0 0 494px;
+}
+
+/* Цифра 5  */
+#section-11_10 {
+  margin: -371px 0 0 521px;
+}
+
+#section-11_10_1 {
+  margin: -436px 0 0 822px;
+}
+
+#section-11_10_2 {
+  margin: -309px 0 0 880px;
+}
+
+/* Цифра 6  */
+#section-11_11 {
+  margin: -371px 0 0 904px;
+}
+
+#section-11_11_1 {
+  margin: -436px 0 0 1209px;
+}
+#section-11_11_2 {
+  margin: -309px 0 0 1266px;
+}
+
+/* Цифра 7  */
+#section-11_12 {
+  margin: 95px 0 0 104px;
+}
+
+#section-11_12_1 {
+  margin: -436px 0 0 400px;
+}
+
+#section-11_12_2 {
+  margin: -309px 0 0 458px;
+}
+
+/* Цифра 8  */
+#section-11_13 {
+  margin: -376px 0 0 502px;
+}
+
+#section-11_13_1 {
+  margin: -432px 0 0 808px;
+}
+#section-11_13_2 {
+  margin: -309px 0 0 865px;
+}
+
+/* Цифра 8  */
+#section-11_14 {
+  margin: -376px 0 0 907px;
+}
+#section-11_14_1 {
+  margin: -431px 0 0 1211px;
+}
+#section-11_14_2 {
+  margin: -309px 0 0 1266px;
+}
+
+/* секция 12 */
+#section-12 {
+  left: calc(50% - 720px);
+  margin-top: 217px;
+  margin-left: 144px;
+  opacity: 1;
+}
+
+#section-12_1 {
+  margin: 171px 145px 3px 144px;
+}
+
+#section-12_2 img {
+  margin-left: 144px;
+  margin-top: 17px;
+  display: block;
+}
+
+#section-12_3 {
+  margin: -53px 136px 37px 1251px;
+}
+
+#section-12_4 {
+  margin-top: 62px;
+  margin-left: 144px;
+  margin-right: 753px;
+  margin-bottom: -38px;
+  display: block;
+  padding: 45px 5px 28px 3px;
+  line-height: 34px;
+}
+
+#section-12_5 {
+  margin: 43px 0 0 144px;
+}
+
+#section-12_6 {
+  margin: 43px 0 0 144px;
+}
+
+#section-12_7 {
+  margin: -25px 300px 0 828px;
+  line-height: 30px;
+}
+
+#section-12_8 p {
+  margin: -12px 910px 0 144px;
+  line-height: 20px;
+}
+
+#section-12_9 p {
+  margin: -5px 249px 0 828px;
+  line-height: 20px;
+}
+#section-12_10 {
+  margin-left: 144px;
+  margin-top: 96px;
+}
+
+#section-12_11 img {
+  margin-left: 144px;
+  margin-top: 35px;
+}
+
+#section-12_12 {
+  margin: 43px 0 0 144px;
+}
+
+#section-12_13 div {
+  margin-left: 144px;
+  margin-top: 96px;
+}
+#section-12_13 p {
+  margin: 21px 758px 0 144px;
+  line-height: 20px;
+}
+
+/* секция 13 */
+#section-13 {
+  left: calc(50% - 720px);
+  margin-top: 160px;
+  margin-left: 144px;
+  opacity: 1;
+}
+
+#section-13_1 {
+  margin: 171px 145px 3px 144px;
+}
+
+#section-13_2 img {
+  margin-left: 144px;
+  margin-top: 17px;
+  display: block;
+}
+
+#section-13_3 {
+  margin: -53px 136px 37px 1251px;
+}
+
+#section-13_4 {
+  font-size: 273px;
+  margin: 105px 0 0 134px;
+}
+
+#section-13_5 {
+  margin: -262px 0 0 457px;
+}
+
+#section-13_6 {
+  margin: 36px 190px 0 460px;
+  line-height: 23px;
+}
+
+#section-13_7 img {
+  margin-left: 144px;
+  margin-top: 206px;
+  display: block;
+}
+/* eng */
+#section-13_8 {
+  font-size: 115px;
+  margin-left: 144px;
+  margin-top: -585px;
+}
+
+#section-13_8_1 {
+  margin-left: 144px;
+  margin-top: 25px;
+}
+#section-13_8_2 {
+  margin-left: 144px;
+  margin-top: 15px;
+}
+
+/* ru */
+#section-13_9 {
+  font-size: 115px;
+  margin-left: 684px;
+  margin-top: -191px;
+}
+
+#section-13_9_1 {
+  margin-left: 691px;
+  margin-top: 25px;
+}
+#section-13_9_2 {
+  margin-left: 691px;
+  margin-top: 15px;
+}
+
+/* de */
+#section-13_10 {
+  font-size: 83px;
+  margin-left: 144px;
+  margin-top: 85px;
+}
+
+#section-13_10_1 {
+  margin-left: 144px;
+  margin-top: 25px;
+}
+#section-13_10_2 {
+  margin-left: 144px;
+  margin-top: 15px;
+}
+
+/* rt */
+#section-13_11 {
+  font-size: 83px;
+  margin-left: 686px;
+  margin-top: -153px;
+}
+
+#section-13_11_1 {
+  margin-left: 690px;
+  margin-top: 27px;
+}
+#section-13_11_2 {
+  margin-left: 690px;
+  margin-top: 15px;
+}
+
+/* tr */
+#section-13_12 {
+  font-size: 54px;
+  margin-left: 144px;
+  margin-top: 87px;
+}
+
+#section-13_12_1 {
+  margin-left: 144px;
+  margin-top: 31px;
+}
+#section-13_12_2 {
+  margin-left: 144px;
+  margin-top: 15px;
+}
+
+/* pl */
+#section-13_13 {
+  font-size: 54px;
+  margin-left: 687px;
+  margin-top: -126px;
+}
+
+#section-13_13_1 {
+  margin-left: 690px;
+  margin-top: 31px;
+}
+#section-13_13_2 {
+  margin-left: 690px;
+  margin-top: 15px;
+}
+
+/* секция 14 */
+#section-14 {
+  left: calc(50% - 720px);
+  margin-top: 160px;
+  margin-left: 144px;
+  opacity: 1;
+}
+#section-14_1 {
+  margin: 171px 145px 3px 144px;
+}
+#section-14_2 img {
+  margin-left: 144px;
+  margin-top: 17px;
+  display: block;
+}
+
+#section-14_3 {
+  margin: -53px 136px 37px 1251px;
+}
+
+#section-14_4 {
+  margin-top: 58px;
+  margin-left: 144px;
+  margin-right: 778px;
+  margin-bottom: -38px;
+  display: block;
+  padding: 45px 5px 28px 3px;
+  line-height: 34px;
+}
+
+#section-14_5 {
+  margin: 111px 0 0 293px;
+  display: block;
+}
+
+#section-14_6 {
+  font-size: 35px;
+  margin: -749px 0 0 327px;
+  color: #000000;
+}
+
+#section-14_6_1 {
+  font-size: 18px;
+  margin: -99px 0 0 351px;
+  color: #000000;
+}
+
+#section-14_6_2 {
+  font-size: 14px;
+  margin: 139px 0 0 349px;
+  color: #000000;
+}
+
+#section-14_6_3 {
+  font-size: 14px;
+  margin: -14px 0 0 482px;
+  color: #d9d9d9;
+}
+
+#section-14_6_4_1 {
+  font-size: 19px;
+  margin: 61px 0 0 403px;
+  color: #d9d9d9;
+}
+
+#section-14_6_4_2 {
+  font-family: "StratosLight";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 19px;
+  margin: 6px 0 0 403px;
+  color: #d9d9d9;
+  opacity: 0.5;
+}
+
+#section-14_6_5_1 {
+  font-size: 19px;
+  margin: 38px 0 0 403px;
+  color: #d9d9d9;
+}
+
+#section-14_6_5_2 {
+  font-family: "StratosLight";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 19px;
+  margin: 6px 0 0 403px;
+  color: #d9d9d9;
+  opacity: 0.5;
+}
+
+#section-14_6_6_1 {
+  font-size: 19px;
+  margin: 45px 0 0 403px;
+  color: #d9d9d9;
+}
+
+#section-14_6_6_2 {
+  font-family: "StratosLight";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 19px;
+  margin: 6px 0 0 403px;
+  color: #d9d9d9;
+  opacity: 0.5;
+}
+
+#section-14_6_7_1 {
+  font-size: 19px;
+  margin: 40px 0 0 403px;
+  color: #d9d9d9;
+}
+
+#section-14_6_7_2 {
+  font-family: "StratosLight";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 19px;
+  margin: 6px 0 0 403px;
+  color: #d9d9d9;
+  opacity: 0.5;
+}
+
+#section-14_6_8_1 {
+  font-size: 19px;
+  margin: 37px 0 0 403px;
+  color: #d9d9d9;
+}
+
+#section-14_6_8_2 {
+  font-family: "StratosLight";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 19px;
+  margin: 6px 0 0 403px;
+  color: #d9d9d9;
+  opacity: 0.5;
+}
+
+#section-14_6_9_1 {
+  font-size: 19px;
+  margin: 37px 0 0 403px;
+  color: #d9d9d9;
+}
+
+#section-14_6_9_2 {
+  font-family: "StratosLight";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 19px;
+  margin: 6px 0 0 403px;
+  color: #d9d9d9;
+  opacity: 0.5;
+}
+
+#section-14_10 {
+  margin: -629px 0 0 742px;
+  display: block;
+}
+
+#section-14_10_1 {
+  font-size: 18px;
+  margin: -811px 0 0 800px;
+  color: #ffffff;
+}
+
+#section-14_10_2 {
+  font-size: 25px;
+  margin: 446px 0 0 807px;
+  color: #d9d9d9;
+}
+
+#section-14_10_3 {
+  font-family: "StratosLight";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 22px;
+  margin: 14px 0 0 807px;
+  color: #d9d9d9;
+  opacity: 0.5;
+}
+
+#section-14_10_4 {
+  font-size: 12px;
+  margin: 70px 0 0 807px;
+  color: #d9d9d9;
+  opacity: 0.5;
+}
+
+#section-14_10_5 {
+  font-size: 12px;
+  margin: -12px 0 0 1059px;
+  color: #d9d9d9;
+  opacity: 0.5;
+}
+
+#button {
+  display: flex;
+  flex-direction: row;
+  margin-top: 305px;
+  margin-bottom: -376px;
+  padding-left: 144px;
+}
+
+/* .section-5 div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-left: 448px;
+  margin-bottom: 0px;
+  margin-right: 140px;
+} */
+
+/* .section-10_11 {
+  background-color: #d9d9d9;
+  height: 3px;
+  width: 1145px;
+  margin-left: 0px;
+  margin-bottom: 15px;
+}
+
+.thelast {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.hover__one {
+  background-color: #000000;
+  transition: all ease 0.3s;
+  color: #d9d9d9;
+}
+
+.hover__one:hover {
+  background-color: #d9d9d9;
+  color: #000000;
+  transition: all ease 0.3s;
+} */
+.hover__one {
+  background-color: #000000;
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+
+.section-10_11 {
+  background-color: #d9d9d9;
+  height: 3px;
+  width: 1145px;
+  margin-bottom: 15px;
+}
+
+.thelast {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+.thelast .regularTitle {
+  color: #d9d9d9;
+  transition: all ease 0.3s;
+}
+
+.hover__one:hover {
+  background-color: #d9d9d9;
+}
+
+.hover__one:hover .regularTitle {
+  color: #000000;
+}
+
+a[href="#top"] {
+  text-decoration: none;
+}
+
+#section-15 img {
+  margin-left: 144px;
+  margin-top: 375px;
+  display: block;
+  padding-left: -1px;
+}
+
+#section-15_1 img {
+  margin: 233px 0 0 149px;
+}
+
+#section-15_2 {
+  font-family: "StratosRegular";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 27px;
+  margin: -293px 0 0 147px;
+}
+
+#section-15_3 {
+  font-family: "StratosRegular";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 27px;
+  margin: -27px 0 0 352px;
+}
+
+#section-15_4 {
+  font-family: "StratosRegular";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 27px;
+  margin: -128px 0 0 475px;
+  flex-direction: column;
+  padding: 75px 290px;
+  line-height: 84px;
+}
+
+#section-15_5 {
+  font-family: "StratosRegular";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 27px;
+  margin: -409px 0 0 970px;
+  flex-direction: column;
+  line-height: 84px;
+}

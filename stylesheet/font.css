@@ -1,0 +1,189 @@
+/* все нормальные */
+
+/* Stratos Thin*/
+@font-face {
+  font-family: "StratosThin";
+  src: url("../font/Normal/StratosThin/Stratos-Thin.eot");
+  src: url("../font/Normal/StratosThin/Stratos-Thin.eot?#iefix")
+      format("embedded-opentype"),
+    url("../font/Normal/StratosThin/Stratos-Thin.woff") format("woff"),
+    url("../font/Normal/StratosThin/stratos-thin.otf") format("truetype");
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+}
+/* Stratos Thin It*/
+@font-face {
+  font-family: "StratosThin";
+  src: url("../font/Italic/StratosThinItalic/stratosthinitalic.ttf")
+    format("truetype");
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+}
+
+/* Stratos ExtraLight*/
+@font-face {
+  font-family: "StratosExtraLight";
+  src: url("../font/Normal/StratosExtraLight/stratos-extralight.otf")
+    format("truetype");
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+}
+/* Stratos ExtraLight It*/
+@font-face {
+  font-family: "StratosExtraLight";
+  src: url("../font/Italic/StratosExtraLightItalic/stratos-extralight-italic.ttf")
+    format("truetype");
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+}
+
+/* Stratos Light*/
+@font-face {
+  font-family: "StratosLight";
+  src: url("../font/Normal/StratosLight/stratos-light.otf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+/* Stratos Light It*/
+@font-face {
+  font-family: "StratosLight";
+  src: url("../font/Italic/StratosLightItalic/stratos-light-italic.otf")
+    format("truetype");
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+}
+
+/* Stratos SemiLight*/
+@font-face {
+  font-family: "StratosSemiLight";
+  src: url("../font/Normal/StratosSemiLight/stratos-semilight.otf")
+    format("truetype");
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+/* Stratos SemiLight It*/
+@font-face {
+  font-family: "StratosSemiLight";
+  src: url("../font/Italic/StratosSemiLightItalic/stratos-semilight-italic.ttf")
+    format("truetype");
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+}
+
+/* Stratos Meduim*/
+@font-face {
+  font-family: "StratosMeduim";
+  src: url("../font/Normal/StratosMedium/stratos-medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+/* Stratos Meduim It*/
+@font-face {
+  font-family: "StratosMeduim";
+  src: url("../font/Italic/StratosMeduimItalic/stratos-medium-italic.ttf")
+    format("truetype");
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+}
+
+/* Stratos Reg */
+@font-face {
+  font-family: "StratosRegular";
+  src: url("../font/Normal/StratosRegular/stratos-regular.ttf")
+    format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+/* Stratos It */
+@font-face {
+  font-family: "StratosItalic";
+  src: url("../font/Italic/StratosItalic/stratos-italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* Stratos Semi Bold */
+@font-face {
+  font-family: "StratosSemiBold";
+  src: url("../font/Normal/StratosSemiBold/stratos-semibold.ttf")
+    format("truetype");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+/* Stratos Semi Bold Italic*/
+@font-face {
+  font-family: "StratosSemiBold";
+  src: url("../font/Italic/StratosSemiBoldItalic/Stratos-SemiBoldItalic.ttf")
+    format("truetype");
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* Stratos Extra Bold */
+@font-face {
+  font-family: "StratosExtraBold";
+  src: url("../font/Normal/StratosExtraBold/stratos-extrabold.otf")
+    format("truetype");
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+}
+/* Stratos Extra Bold italic */
+@font-face {
+  font-family: "StratosExtraBold";
+  src: url("../font/Italic/StratosExtraBoldItalic/stratos-extrabold-italic.otf")
+    format("truetype");
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+}
+
+/* Stratos Bold */
+@font-face {
+  font-family: "StratosBold";
+  src: url("../font/Normal/StratosBold/stratos-bold.otf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+}
+/* Stratos Bold Italic */
+@font-face {
+  font-family: "StratosBold";
+  src: url("../font/Italic/StratosBoldItalic/stratos-bold-italic.ttf")
+    format("truetype");
+  font-style: italic;
+  font-weight: bold;
+  font-display: swap;
+}
+
+/* Stratos Black */
+@font-face {
+  font-family: "StratosBlack";
+  src: url("../font/Normal/StratosBlack/stratos-black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+}
+/* Stratos Black Italic */
+@font-face {
+  font-family: "StratosBlack";
+  src: url("../font/Italic/StratosBlackItalic/stratos-black-italic.otf")
+    format("truetype");
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+}
