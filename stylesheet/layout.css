@@ -1426,6 +1426,12 @@ a {
   color: #d9d9d9;
 }
 
+.t {
+  font-family: "StratosRegular";
+  font-weight: normal;
+  font-style: normal;
+}
+
 #section-14_6_4_2 {
   font-family: "StratosLight";
   font-weight: 300;
