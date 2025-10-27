@@ -1403,12 +1403,6 @@ a {
   font-style: normal;
 }
 
-.s {
-  font-family: "StratosMedium";
-  font-weight: 500;
-  font-style: normal;
-}
-
 #section-14_6_1 {
   font-size: 18px;
   margin: -99px 0 0 351px;
@@ -1447,6 +1441,9 @@ a {
 }
 
 #section-14_6_5_1 {
+  font-family: "StratosMedium";
+  font-weight: 500;
+  font-style: normal;
   font-size: 19px;
   margin: 38px 0 0 403px;
   color: #d9d9d9;
@@ -1463,6 +1460,9 @@ a {
 }
 
 #section-14_6_6_1 {
+  font-family: "StratosMedium";
+  font-weight: 500;
+  font-style: normal;
   font-size: 19px;
   margin: 45px 0 0 403px;
   color: #d9d9d9;
@@ -1479,6 +1479,9 @@ a {
 }
 
 #section-14_6_7_1 {
+  font-family: "StratosMedium";
+  font-weight: 500;
+  font-style: normal;
   font-size: 19px;
   margin: 40px 0 0 403px;
   color: #d9d9d9;
@@ -1495,6 +1498,9 @@ a {
 }
 
 #section-14_6_8_1 {
+  font-family: "StratosMedium";
+  font-weight: 500;
+  font-style: normal;
   font-size: 19px;
   margin: 37px 0 0 403px;
   color: #d9d9d9;
