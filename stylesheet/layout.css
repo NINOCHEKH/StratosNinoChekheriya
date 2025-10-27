@@ -356,6 +356,11 @@ a {
 #section-1 a {
   text-decoration: none;
 }
+.stratosh {
+  font-family: "StratosRegular";
+  font-weight: normal;
+  font-style: normal;
+}
 
 #section-1 h1 {
   font-family: "StratosRegular";
