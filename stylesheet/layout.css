@@ -357,17 +357,16 @@ a {
   text-decoration: none;
 }
 
-.stratosh {
-  font-family: "Stratos";
-  font-weight: normal;
-  font-style: normal;
-}
-
-#section-1 h1 {
+.stratoos {
   font-family: "StratosRegular";
   font-weight: normal;
   font-style: normal;
 }
+/* #section-1 h1 { 
+  font-family: "StratosRegular";
+  font-weight: normal;
+  font-style: normal;
+} */
 .navigation {
   opacity: 0.5;
   transition: all ease 0.3s;
