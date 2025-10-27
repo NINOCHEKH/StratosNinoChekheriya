@@ -1396,7 +1396,14 @@ a {
   margin: -749px 0 0 327px;
   color: #000000;
 }
-.m {
+
+.t {
+  font-family: "StratosRegular";
+  font-weight: normal;
+  font-style: normal;
+}
+
+.s {
   font-family: "StratosMedium";
   font-weight: 500;
   font-style: normal;
